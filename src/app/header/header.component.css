@@ -1,0 +1,41 @@
+.logo{
+  margin-left:50px;
+}
+
+.logo img{
+  height:100px;
+  width:130px;
+
+}
+
+.cont{
+  width: 100vw;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content:space-between; 
+  align-items: center;
+  
+}
+
+
+.nbn ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nbn ul li{
+  float: left;
+  margin-right:40px;
+  
+}
+
+.nbn ul li a{
+text-decoration: none;
+font-family: "san-serif";
+font-size:23px;
+padding: 10px;
+color:rgb(34, 73, 139);
+
+}
