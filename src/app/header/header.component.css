@@ -39,3 +39,19 @@ padding: 10px;
 color:rgb(34, 73, 139);
 
 }
+
+@media only screen and (max-width:600px) {
+
+
+ 
+
+
+  .cont{
+    width:100vw;
+    height:30vh;
+    justify-content: space-between;
+    display: block;
+  
+    
+  }
+}

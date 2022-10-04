@@ -40,6 +40,7 @@
   
 }
 
+
 .hmc h1{
   padding-left: 65px;
   padding-top:60px;
@@ -993,7 +994,7 @@
     z-index: -1;
   }
   .contact-box{
-    max-width: 850px;
+    width: 850px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -1060,12 +1061,13 @@
     background-color: #fff;
   }
   
-  @media screen and (max-width: 880px){
+  @media screen and (max-width:660px){
     .contact-box{
       grid-template-columns: 1fr;
     }
     .left{
       height: 200px;
+    
     }
   }
   
